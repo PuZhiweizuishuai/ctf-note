@@ -1,0 +1,4 @@
+先用binwalk分析文件，然后用下面的命令提取文件 
+
+dd if=QR_code.png of=flag.zip skip=471 bs=1
+

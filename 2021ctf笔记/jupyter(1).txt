@@ -1,0 +1,29 @@
+pip install --upgrade pip
+pip install jupyter
+
+
+jupyter nbextension enable codefolding/main
+
+
+jupyter notebook
+
+
+
+python -m pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip install --upgrade pip
+pip install jupyter
+
+python -m pip install jupyter_contrib_nbextensions
+
+python -m jupyter contrib nbextension install
+jupyter contrib nbextension install
+python -m pip install jupyter_nbextensions_configurator
+python -m pip install numpy
+python -m pip install matplotlib
+python -m pip install Pillow
+python -m pip install pycryptodome
+python -m pip install rsa
+python -m pip install pycipher
+python -m pip install pyDes
+python -m pip install cryptography
+python -m pip install opencv-python
